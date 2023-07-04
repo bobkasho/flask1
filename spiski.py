@@ -23,3 +23,10 @@ elif sel_country == 1:
     print("You Coool!!!")
 else:
     print("Nu take...")
+
+dali = input("Go for new task? y/n:")
+dali = dali.lower()
+if dali == "y":
+    print("it`s all right!")
+else:
+    print("Good bye, chika! :-)")
