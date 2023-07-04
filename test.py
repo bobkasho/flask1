@@ -5,31 +5,21 @@
 #   одно очко в его пользу. В конце игры сообщите пользователю количество правильных ответов
 
 import random
-#PAUSE )))
-
 xxx = 1
 victory_count = 0
-while xxx < 6:
-    print("Угадай сумму случайных чисел (до 20). У тебя 5 попыток. Попытка номер", xxx)
-    num1 = random.randint(1, 10)
-    num2 = random.randint(1, 10)
+while xxx < 10:
+    print("Угадай сумму случайных чисел (до 10). У тебя 10 попыток. Попытка номер", xxx)
+    num1 = random.randint(1, 5)
+    num2 = random.randint(1, 5)
     num = num1 + num2
     answer = int(input("Введите число от 1 до 10: "))
     xxx = xxx + 1
     if answer == num:
+        print("Отлично, угадал, сохраняю результат!")
         victory_count = victory_count + 1
     else:
         print("Не угадал! Было число", num)
-
-
-
-
-
-
-
-
-
-
+print("Удачных попыток", victory_count)
 
 
 ##import random
