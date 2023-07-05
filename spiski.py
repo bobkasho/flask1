@@ -33,5 +33,6 @@
 
 country = ("Italy", "Ukraine", "USA", "Poland", "China")
 print(country)
-sel_count = input("Обери одну з країн - Italy, Ukraine, USA, Poland, China і напиши яку ти обрав: ")
-print(country.index(sel_count))
+#sel_count = input("Обери одну з країн - Italy, Ukraine, USA, Poland, China і напиши яку ти обрав: ")
+sel_index = int(input("обери номер від 0 до 4 щоб побачити яка під цим індексом країна в кортежі:"))
+print(country[sel_index])
