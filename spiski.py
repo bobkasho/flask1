@@ -31,8 +31,20 @@
 # else:
 #     print("Good bye, chika! :-)")
 
-country = ("Italy", "Ukraine", "USA", "Poland", "China")
-print(country)
-#sel_count = input("Обери одну з країн - Italy, Ukraine, USA, Poland, China і напиши яку ти обрав: ")
-sel_index = int(input("обери номер від 0 до 4 щоб побачити яка під цим індексом країна в кортежі:"))
-print(country[sel_index])
+# country = ("Italy", "Ukraine", "USA", "Poland", "China")
+# print(country)
+# #sel_count = input("Обери одну з країн - Italy, Ukraine, USA, Poland, China і напиши яку ти обрав: ")
+# sel_index = int(input("обери номер від 0 до 4 щоб побачити яка під цим індексом країна в кортежі:"))
+# print(country[sel_index])
+#
+# 071
+# Создайте список с названиями двух видов
+# спорта. Предложите пользователю ввести
+# свой любимый вид спорта и добавьте его
+# в конец списка. Отсортируйте список и выведите его.
+
+sport = ["футбол", "теніс"]
+new_sport = input("Введіть назву вашого улюбленного спорту: ")
+sport.append(new_sport)
+sport.sort()
+print(sport)
