@@ -37,14 +37,15 @@
 # sel_index = int(input("обери номер від 0 до 4 щоб побачити яка під цим індексом країна в кортежі:"))
 # print(country[sel_index])
 #
-# 071
-# Создайте список с названиями двух видов
-# спорта. Предложите пользователю ввести
-# свой любимый вид спорта и добавьте его
-# в конец списка. Отсортируйте список и выведите его.
+# sport = ["футбол", "теніс"]
+# new_sport = input("Введіть назву вашого улюбленного спорту: ")
+# sport.append(new_sport)
+# sport.sort()
+# print(sport)
 
-sport = ["футбол", "теніс"]
-new_sport = input("Введіть назву вашого улюбленного спорту: ")
-sport.append(new_sport)
-sport.sort()
-print(sport)
+# subject_list = ["maths", "english", "computing", "history", "science", "spanish"]
+# print(subject_list)
+# dislike = input("Which of these subjects do you dislike? ")
+# getrid = subject_list.index(dislike)
+# del subject_list[getrid]
+# print(subject_list)
